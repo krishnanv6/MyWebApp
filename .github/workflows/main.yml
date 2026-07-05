@@ -4,6 +4,7 @@ on:
     push:
      paths:
         - ! .github/**
+        - index.html
 jobs:
     build-job:
         name: Hello world job 
