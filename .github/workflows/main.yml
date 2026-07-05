@@ -3,8 +3,7 @@ on:
     workflow_dispatch:
     push:
      paths:
-        - ! .github/**
-        - index.html
+        - '! .github/**'
 jobs:
     build-job:
         name: Hello world job 
